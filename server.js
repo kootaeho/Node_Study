@@ -1,3 +1,5 @@
-const aa = require( './index.js' )    // Module 가져오기
+// const aa = require( './index.js' )    // Module 가져오기
  
-aa.consoleFunction()
+// aa.consoleFunction()
+
+
