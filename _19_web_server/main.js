@@ -19,3 +19,9 @@ app.get('/about', (req,res)=>{
     //res.send("/about에 대한 요청")
     res.sendFile(__dirname + '/pages/about.html')
 })
+
+app.get('/working', (req,res)=>{
+    console.log("/working에 요청이 들어옴")
+    //res.send("/working에 대한 요청")
+    res.sendFile(__dirname + '/pages/working.html')
+})
