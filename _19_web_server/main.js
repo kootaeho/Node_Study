@@ -2,6 +2,10 @@ const express = require('express') //npm install express --save
 const app = express()
 
 
+app.use('/pages', express.static(__dirname+'/pages')) //pages 경로로 들어오는 요청에 대해서는
+//로컬 폴더 __dirname : main.js가 있는 폴더 위치
+// __dirname + '/pages'
+
 app.listen(3000, ()=>{
     console.log("gg 누군가가 접속함.")
 })
@@ -25,3 +29,4 @@ app.get('/working', (req,res)=>{
     //res.send("/working에 대한 요청")
     res.sendFile(__dirname + '/pages/working.html')
 })
+
