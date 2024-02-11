@@ -11,22 +11,22 @@ app.listen(3000, ()=>{
 })
 
 
-//처리해주는 루틴 추가
-app.get('/', (req,res)=>{
-    console.log("루트에 요청이 들어옴")
-    //res.send("루트에 대한 요청")
-    res.sendFile(__dirname + '/pages/index.html')
-})
+// 처리해주는 루틴 추가
+// app.get('/', (req,res)=>{
+//     console.log("루트에 요청이 들어옴")
+//     //res.send("루트에 대한 요청")
+//     res.sendFile(__dirname + '/pages/index.html')
+// })
 
-app.get('/about', (req,res)=>{
-    console.log("/about에 요청이 들어옴")
-    //res.send("/about에 대한 요청")
-    res.sendFile(__dirname + '/pages/about.html')
-})
+// app.get('/about', (req,res)=>{
+//     console.log("/about에 요청이 들어옴")
+//     //res.send("/about에 대한 요청")
+//     res.sendFile(__dirname + '/pages/about.html')
+// })
 
-app.get('/working', (req,res)=>{
-    console.log("/working에 요청이 들어옴")
-    //res.send("/working에 대한 요청")
-    res.sendFile(__dirname + '/pages/working.html')
-})
+// app.get('/working', (req,res)=>{
+//     console.log("/working에 요청이 들어옴")
+//     //res.send("/working에 대한 요청")
+//     res.sendFile(__dirname + '/pages/working.html')
+// })
 
