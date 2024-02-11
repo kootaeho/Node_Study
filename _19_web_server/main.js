@@ -6,7 +6,7 @@ app.use('/pages', express.static(__dirname+'/pages')) //pages 경로로 들어�
 //로컬 폴더 __dirname : main.js가 있는 폴더 위치
 // __dirname + '/pages'
 
-app.listen(3000, ()=>{
+app.listen(3306, ()=>{
     console.log("gg 누군가가 접속함.")
 })
 
